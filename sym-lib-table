@@ -1,4 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "mullet-pcb-rescue")(type "Legacy")(uri "${KIPRJMOD}/mullet-pcb-rescue.lib")(options "")(descr ""))
-  (lib (name "discipline-pcb-rescue")(type "Legacy")(uri "${KIPRJMOD}/discipline-pcb-rescue.lib")(options "")(descr ""))
+  (lib (name "discipline-pcb-rescue")(type "KiCad")(uri "${KIPRJMOD}/discipline-pcb-rescue.kicad_sym")(options "")(descr ""))
 )
