@@ -2,3 +2,9 @@
 /plate/discipline-pcb-backups
 /bottom-plate/discipline-pcb-backups
 /gerber/**/*.zip
+
+# ignore temporary files:
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
