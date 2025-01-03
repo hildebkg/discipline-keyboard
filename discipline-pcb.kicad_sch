@@ -2664,23 +2664,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "USB"
-				(at -5.08 22.86 0)
+			(property "Reference" "USB1"
+				(at -4.2926 26.3398 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "Type-C_USB_C_GCT_USB4085"
-				(at -10.16 -1.27 90)
+			(property "Value" "USB_C_GCT_USB4085"
+				(at -4.2926 23.6474 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "cftkb:USB_C_GCT_USB4085"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2751,8 +2751,8 @@
 					)
 				)
 				(pin input line
-					(at 2.54 -16.51 180)
-					(length 2.54)
+					(at 3.81 -16.51 180)
+					(length 3.81)
 					(name "GND"
 						(effects
 							(font
@@ -2895,8 +2895,8 @@
 					)
 				)
 				(pin input line
-					(at 2.54 16.51 180)
-					(length 2.54)
+					(at 3.81 16.51 180)
+					(length 3.81)
 					(name "GND"
 						(effects
 							(font
@@ -3158,7 +3158,7 @@
 		(uuid "0298026b-6682-434e-8156-ea0456dbb65c")
 	)
 	(junction
-		(at 321.31 92.075)
+		(at 321.31 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "029d2009-4c50-4e4d-b4e2-1324e0ee04b3")
@@ -3212,7 +3212,7 @@
 		(uuid "15fdff3b-09d0-4d64-848b-ae675ef5fb50")
 	)
 	(junction
-		(at 179.705 192.405)
+		(at 180.34 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16e1c333-231e-4f48-8a05-d04a0439324f")
@@ -3248,16 +3248,28 @@
 		(uuid "202e0272-497e-4c50-a6e7-2d09727be880")
 	)
 	(junction
+		(at 161.29 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20eb9f0e-0cfe-4458-946f-b0b089c58422")
+	)
+	(junction
 		(at 180.34 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23c17bba-7bff-4a66-aac0-7680e9c21344")
 	)
 	(junction
-		(at 182.245 262.255)
+		(at 182.88 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25f0ba76-9f70-4f38-bc1b-107e461bb66d")
+	)
+	(junction
+		(at 161.29 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27833e7e-6145-4424-bc4a-cbf1dcc1a1f6")
 	)
 	(junction
 		(at 143.51 88.9)
@@ -3276,12 +3288,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ab532b8-669a-49da-9045-75dd143aea9a")
-	)
-	(junction
-		(at 159.385 217.805)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b0b9096-99e9-469c-9340-f5ddaea624a9")
 	)
 	(junction
 		(at 73.66 128.27)
@@ -3320,7 +3326,7 @@
 		(uuid "30452dfc-6bb3-4681-9c56-2851b9e64a13")
 	)
 	(junction
-		(at 159.385 207.645)
+		(at 160.02 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "312a01c8-9d0b-4afa-8754-327d261aae69")
@@ -3348,12 +3354,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f60d698-35e4-4ade-b6c1-3f082c91a5de")
-	)
-	(junction
-		(at 159.385 215.265)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "405c0305-e00e-4e34-b88b-f0aff4e74c62")
 	)
 	(junction
 		(at 144.78 97.79)
@@ -3396,6 +3396,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b8371e5-791d-4ec1-8360-45c62c462b77")
+	)
+	(junction
+		(at 161.29 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d431619-8d2b-4662-abac-3c1c2d6adb03")
 	)
 	(junction
 		(at 73.66 113.03)
@@ -3554,13 +3560,13 @@
 		(uuid "727c8f29-ebe0-47fd-a8c2-613a591c1f70")
 	)
 	(junction
-		(at 159.385 184.785)
+		(at 160.02 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7439052d-3337-45fc-84e9-b635ea9f32ea")
 	)
 	(junction
-		(at 163.195 184.785)
+		(at 163.83 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a4745e3-9e44-4808-93fa-85d14a148968")
@@ -3584,7 +3590,7 @@
 		(uuid "7f7aff75-945a-4698-94f5-e1dbbfe9d32e")
 	)
 	(junction
-		(at 75.565 187.96)
+		(at 76.2 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "822f4786-07bb-43ea-9c07-1dbc36e318d5")
@@ -3608,7 +3614,7 @@
 		(uuid "83121d98-c940-4d43-a851-78d1c7b0f897")
 	)
 	(junction
-		(at 143.51 243.205)
+		(at 143.51 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84800197-dd6a-412b-9f7a-10ba3b2d1872")
@@ -3626,7 +3632,7 @@
 		(uuid "85648606-ae72-4260-ba71-122e4f092cb7")
 	)
 	(junction
-		(at 75.565 196.85)
+		(at 76.2 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88c3b5ce-99eb-4063-8d99-4cb88c08b37b")
@@ -3698,7 +3704,7 @@
 		(uuid "97db0ce3-f948-4110-9bbe-3c6e8715fb01")
 	)
 	(junction
-		(at 75.565 182.88)
+		(at 76.2 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9828d76c-8e80-46cb-8256-3b09ef897c33")
@@ -3720,12 +3726,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d1cfbf5-a543-4332-8e1d-3c974fccd3c1")
-	)
-	(junction
-		(at 159.385 177.165)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e5f1451-7dbc-4124-8887-c48c37fc77f4")
 	)
 	(junction
 		(at 125.73 104.14)
@@ -3800,13 +3800,13 @@
 		(uuid "be751a32-8da8-47fa-9c73-2eebdaadc151")
 	)
 	(junction
-		(at 169.545 194.945)
+		(at 170.18 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3644546-a692-425b-8c12-de3747c49cc4")
 	)
 	(junction
-		(at 177.165 189.865)
+		(at 177.8 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c45eedb8-fdd2-4118-b5a1-0cb54aa79c72")
@@ -3836,7 +3836,7 @@
 		(uuid "ce631843-5f9f-4f81-8872-8229504e97f3")
 	)
 	(junction
-		(at 172.085 192.405)
+		(at 172.72 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cecc94ff-5e7b-450f-a270-a402c9cb82b3")
@@ -3896,7 +3896,7 @@
 		(uuid "dd138e69-8dbf-47d8-b740-b0f342e142a8")
 	)
 	(junction
-		(at 169.545 192.405)
+		(at 170.18 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd9b57ea-e32e-43cc-849f-a8ffb22910f9")
@@ -3908,7 +3908,7 @@
 		(uuid "dee95a42-1364-4ede-ba53-e31657551990")
 	)
 	(junction
-		(at 182.245 194.945)
+		(at 182.88 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfc45c5d-cb69-44c4-a999-711101a01bff")
@@ -3926,7 +3926,7 @@
 		(uuid "e3964541-ee5c-4a7b-8dc2-990fb93e29f4")
 	)
 	(junction
-		(at 177.165 217.805)
+		(at 177.8 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e51b3020-cdda-41e0-b48b-9232e04645c7")
@@ -3938,7 +3938,7 @@
 		(uuid "e68b89d7-58cd-4b81-a033-35c21d034c22")
 	)
 	(junction
-		(at 143.51 248.285)
+		(at 143.51 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6d248ac-64dc-425b-bf2d-cd2053cc7066")
@@ -3986,13 +3986,13 @@
 		(uuid "ea43c42c-6630-4b22-bffa-ec4bc21c0daf")
 	)
 	(junction
-		(at 177.165 205.105)
+		(at 177.8 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb7eeb4f-989f-4e39-8a5c-816ddf747242")
 	)
 	(junction
-		(at 103.505 170.18)
+		(at 104.14 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebb7970d-4f56-4f5c-9317-e1b67cc8671c")
@@ -4022,7 +4022,7 @@
 		(uuid "f4b0289b-a5cc-40ed-9f15-f54c4578c3f0")
 	)
 	(junction
-		(at 182.245 203.835)
+		(at 182.88 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4e61567-c6eb-4934-8a00-8bfdb3cb5f2c")
@@ -4046,7 +4046,7 @@
 		(uuid "f688f89d-a537-4555-889e-0638819baa82")
 	)
 	(junction
-		(at 167.005 184.785)
+		(at 167.64 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7cc8449-cfea-4566-9ea0-2caf646f7771")
@@ -4082,39 +4082,39 @@
 		(uuid "ff66fe49-87c3-4140-9a8b-a0f040746dff")
 	)
 	(no_connect
-		(at 116.205 246.38)
+		(at 116.84 246.38)
 		(uuid "0270bb24-47f7-456d-8636-ba9c1bcb467c")
 	)
 	(no_connect
-		(at 116.205 248.92)
+		(at 116.84 248.92)
 		(uuid "101474e1-fd47-499b-819e-31646d532ec0")
 	)
 	(no_connect
-		(at 116.205 241.3)
+		(at 116.84 241.3)
 		(uuid "3cdaa5cc-0161-4a76-8353-12e18bc28bfc")
 	)
 	(no_connect
-		(at 116.205 190.5)
+		(at 116.84 190.5)
 		(uuid "64dd619c-beaa-402d-8df1-456f3de25623")
 	)
 	(no_connect
-		(at 159.385 202.565)
+		(at 160.02 203.2)
 		(uuid "897be8b4-d9c7-4c2b-b0fb-7274a29e07f4")
 	)
 	(no_connect
-		(at 116.205 193.04)
+		(at 116.84 193.04)
 		(uuid "9745826b-0951-4c24-8c60-99da073ef2a1")
 	)
 	(no_connect
-		(at 159.385 187.325)
+		(at 160.02 187.96)
 		(uuid "9b23a5d6-5fe5-4bb8-8f57-8e0d81ba2e93")
 	)
 	(no_connect
-		(at 85.725 193.04)
+		(at 86.36 193.04)
 		(uuid "babe229e-e0ad-4c68-8039-559810fa1c51")
 	)
 	(no_connect
-		(at 116.205 195.58)
+		(at 116.84 195.58)
 		(uuid "bdce8877-d87e-4cfc-87a1-89df2c6b6ec4")
 	)
 	(wire
@@ -4179,7 +4179,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 243.205) (xy 147.32 243.205)
+			(xy 143.51 243.84) (xy 147.32 243.84)
 		)
 		(stroke
 			(width 0)
@@ -4209,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 150.495) (xy 110.49 133.35)
+			(xy 110.49 151.13) (xy 110.49 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4389,7 +4389,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 184.785) (xy 167.005 175.895)
+			(xy 167.64 185.42) (xy 167.64 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4416,16 +4416,6 @@
 			(type default)
 		)
 		(uuid "1361816a-922b-44d4-a065-3bb693ea82a2")
-	)
-	(wire
-		(pts
-			(xy 159.385 212.725) (xy 159.385 215.265)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1386268e-1455-4880-9065-0b1f4099c5d8")
 	)
 	(wire
 		(pts
@@ -4489,7 +4479,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 182.88) (xy 75.565 182.88)
+			(xy 86.36 182.88) (xy 76.2 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4509,7 +4499,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 205.105) (xy 172.085 205.105)
+			(xy 160.02 205.74) (xy 172.72 205.74)
 		)
 		(stroke
 			(width 0)
@@ -4519,7 +4509,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 192.405) (xy 172.085 192.405)
+			(xy 170.18 193.04) (xy 172.72 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4549,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 184.785) (xy 167.005 207.645)
+			(xy 167.64 185.42) (xy 167.64 208.28)
 		)
 		(stroke
 			(width 0)
@@ -4659,7 +4649,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 194.945) (xy 169.545 200.025)
+			(xy 170.18 195.58) (xy 170.18 200.66)
 		)
 		(stroke
 			(width 0)
@@ -4779,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 248.285) (xy 143.51 250.825)
+			(xy 143.51 248.92) (xy 143.51 251.46)
 		)
 		(stroke
 			(width 0)
@@ -4869,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 189.865) (xy 172.085 189.865)
+			(xy 160.02 190.5) (xy 172.72 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4909,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 88.9) (xy 321.31 92.075)
+			(xy 321.31 88.9) (xy 321.31 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4929,7 +4919,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 102.235) (xy 86.36 102.235)
+			(xy 67.31 102.87) (xy 86.36 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4969,7 +4959,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 182.245) (xy 169.545 180.975)
+			(xy 170.18 182.88) (xy 170.18 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5026,6 +5016,16 @@
 			(type default)
 		)
 		(uuid "42b57000-1561-4b14-9047-897d4f46b8bd")
+	)
+	(wire
+		(pts
+			(xy 161.29 218.44) (xy 177.8 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bf3e8a-0c08-42a4-b909-e8f77d5777fb")
 	)
 	(wire
 		(pts
@@ -5139,7 +5139,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 200.025) (xy 159.385 200.025)
+			(xy 170.18 200.66) (xy 160.02 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5189,7 +5189,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.565 187.96) (xy 75.565 191.77)
+			(xy 76.2 187.96) (xy 76.2 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5239,7 +5239,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 192.405) (xy 179.705 198.755)
+			(xy 180.34 193.04) (xy 180.34 199.39)
 		)
 		(stroke
 			(width 0)
@@ -5319,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 197.485) (xy 159.385 197.485)
+			(xy 172.72 198.12) (xy 160.02 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5329,7 +5329,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 121.285) (xy 69.85 119.38)
+			(xy 69.85 121.92) (xy 69.85 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5379,7 +5379,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 194.945) (xy 183.515 194.945)
+			(xy 182.88 195.58) (xy 184.15 195.58)
 		)
 		(stroke
 			(width 0)
@@ -5459,7 +5459,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 205.105) (xy 177.165 217.805)
+			(xy 177.8 205.74) (xy 177.8 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5476,6 +5476,16 @@
 			(type default)
 		)
 		(uuid "603e4ff8-9507-4a06-aa5b-d8ac932e83eb")
+	)
+	(wire
+		(pts
+			(xy 161.29 215.9) (xy 160.02 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607baaf9-f0bd-4568-969c-40ee7d3be93b")
 	)
 	(wire
 		(pts
@@ -5509,7 +5519,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 104.14) (xy 67.31 102.235)
+			(xy 67.31 104.14) (xy 67.31 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5519,7 +5529,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 262.255) (xy 182.245 262.255)
+			(xy 186.69 262.89) (xy 182.88 262.89)
 		)
 		(stroke
 			(width 0)
@@ -5529,7 +5539,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 150.495) (xy 196.85 133.35)
+			(xy 196.85 151.13) (xy 196.85 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5559,7 +5569,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 194.945) (xy 169.545 194.945)
+			(xy 160.02 195.58) (xy 170.18 195.58)
 		)
 		(stroke
 			(width 0)
@@ -5589,7 +5599,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 192.405) (xy 169.545 187.325)
+			(xy 170.18 193.04) (xy 170.18 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5739,7 +5749,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 182.245) (xy 159.385 184.785)
+			(xy 160.02 182.88) (xy 160.02 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5799,7 +5809,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 192.405) (xy 179.705 192.405)
+			(xy 172.72 193.04) (xy 180.34 193.04)
 		)
 		(stroke
 			(width 0)
@@ -5839,7 +5849,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 182.88) (xy 71.755 191.77)
+			(xy 72.39 182.88) (xy 72.39 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5869,7 +5879,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 192.405) (xy 172.085 197.485)
+			(xy 172.72 193.04) (xy 172.72 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5879,7 +5889,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 102.235) (xy 86.36 104.14)
+			(xy 86.36 102.87) (xy 86.36 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5999,7 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 150.495) (xy 90.17 133.35)
+			(xy 90.17 151.13) (xy 90.17 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6009,7 +6019,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 177.165) (xy 177.165 189.865)
+			(xy 177.8 177.8) (xy 177.8 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6019,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 187.96) (xy 75.565 187.96)
+			(xy 86.36 187.96) (xy 76.2 187.96)
 		)
 		(stroke
 			(width 0)
@@ -6069,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 121.285) (xy 69.85 121.285)
+			(xy 53.34 121.92) (xy 69.85 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6149,13 +6159,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 119.38) (xy 52.705 121.285)
+			(xy 53.34 119.38) (xy 53.34 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f813f85-b0c9-49d2-8cf6-15fdb22217c7")
+	)
+	(wire
+		(pts
+			(xy 161.29 213.36) (xy 161.29 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906499bd-99b3-4ebd-a076-d0963b099b21")
 	)
 	(wire
 		(pts
@@ -6179,7 +6199,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 248.285) (xy 147.32 248.285)
+			(xy 143.51 248.92) (xy 147.32 248.92)
 		)
 		(stroke
 			(width 0)
@@ -6219,7 +6239,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 150.495) (xy 181.61 133.35)
+			(xy 181.61 151.13) (xy 181.61 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6279,7 +6299,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 243.205) (xy 143.51 243.205)
+			(xy 139.7 243.84) (xy 143.51 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6289,7 +6309,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 106.045) (xy 52.07 106.045)
+			(xy 68.58 106.68) (xy 52.07 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6329,7 +6349,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 192.405) (xy 169.545 192.405)
+			(xy 160.02 193.04) (xy 170.18 193.04)
 		)
 		(stroke
 			(width 0)
@@ -6359,7 +6379,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 217.805) (xy 177.165 217.805)
+			(xy 160.02 218.44) (xy 161.29 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6379,7 +6399,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 203.835) (xy 182.245 203.835)
+			(xy 180.34 204.47) (xy 182.88 204.47)
 		)
 		(stroke
 			(width 0)
@@ -6429,7 +6449,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 184.785) (xy 163.195 184.785)
+			(xy 160.02 185.42) (xy 163.83 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6456,6 +6476,16 @@
 			(type default)
 		)
 		(uuid "a3f73098-2040-442e-a5d6-b52c495ea9d5")
+	)
+	(wire
+		(pts
+			(xy 161.29 177.8) (xy 161.29 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47d2301-6382-42e3-80a2-3adcc202602d")
 	)
 	(wire
 		(pts
@@ -6549,7 +6579,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 117.475) (xy 86.36 119.38)
+			(xy 86.36 118.11) (xy 86.36 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6559,7 +6589,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 150.495) (xy 74.93 133.35)
+			(xy 74.93 151.13) (xy 74.93 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6569,17 +6599,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 179.705) (xy 159.385 177.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae9d3976-3614-4a51-8998-a4e61d2f6c41")
-	)
-	(wire
-		(pts
-			(xy 139.7 248.285) (xy 143.51 248.285)
+			(xy 139.7 248.92) (xy 143.51 248.92)
 		)
 		(stroke
 			(width 0)
@@ -6589,7 +6609,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.565 182.88) (xy 71.755 182.88)
+			(xy 76.2 182.88) (xy 72.39 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6649,7 +6669,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 92.075) (xy 306.07 88.9)
+			(xy 306.07 92.71) (xy 306.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6679,7 +6699,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 119.38) (xy 67.945 117.475)
+			(xy 68.58 119.38) (xy 68.58 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6689,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 117.475) (xy 86.36 117.475)
+			(xy 68.58 118.11) (xy 86.36 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6729,6 +6749,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 177.8) (xy 177.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8725d40-217f-4130-bc3a-c4db673d54ad")
+	)
+	(wire
+		(pts
 			(xy 180.34 83.82) (xy 198.12 83.82)
 		)
 		(stroke
@@ -6749,7 +6779,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 92.075) (xy 321.31 104.14)
+			(xy 321.31 92.71) (xy 321.31 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6799,7 +6829,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 192.405) (xy 183.515 192.405)
+			(xy 180.34 193.04) (xy 184.15 193.04)
 		)
 		(stroke
 			(width 0)
@@ -6949,16 +6979,6 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 215.265) (xy 159.385 217.805)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbcf73cb-7d62-4594-98ee-fa3711f1d272")
-	)
-	(wire
-		(pts
 			(xy 287.02 74.93) (xy 287.02 76.2)
 		)
 		(stroke
@@ -6979,7 +6999,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 243.205) (xy 143.51 240.665)
+			(xy 143.51 243.84) (xy 143.51 241.3)
 		)
 		(stroke
 			(width 0)
@@ -7019,7 +7039,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 210.185) (xy 159.385 207.645)
+			(xy 160.02 210.82) (xy 160.02 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7049,7 +7069,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 262.255) (xy 178.435 262.255)
+			(xy 182.88 262.89) (xy 179.07 262.89)
 		)
 		(stroke
 			(width 0)
@@ -7069,7 +7089,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 106.045) (xy 52.07 104.14)
+			(xy 52.07 106.68) (xy 52.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7109,7 +7129,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 170.18) (xy 103.505 170.18)
+			(xy 101.6 170.18) (xy 104.14 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7129,7 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 177.165) (xy 177.165 177.165)
+			(xy 160.02 177.8) (xy 161.29 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7209,7 +7229,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 207.645) (xy 159.385 207.645)
+			(xy 167.64 208.28) (xy 160.02 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7279,7 +7299,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 104.14) (xy 68.58 106.045)
+			(xy 68.58 104.14) (xy 68.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7319,7 +7339,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 184.785) (xy 167.005 184.785)
+			(xy 163.83 185.42) (xy 167.64 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7336,6 +7356,16 @@
 			(type default)
 		)
 		(uuid "e6da00af-150c-4650-b746-df37097df69c")
+	)
+	(wire
+		(pts
+			(xy 161.29 215.9) (xy 161.29 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7706a65-ebd5-46d3-a3b6-879bc7b76ae5")
 	)
 	(wire
 		(pts
@@ -7379,7 +7409,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 194.945) (xy 182.245 194.945)
+			(xy 170.18 195.58) (xy 182.88 195.58)
 		)
 		(stroke
 			(width 0)
@@ -7449,7 +7479,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 189.865) (xy 177.165 205.105)
+			(xy 177.8 190.5) (xy 177.8 205.74)
 		)
 		(stroke
 			(width 0)
@@ -7499,7 +7529,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 196.85) (xy 75.565 196.85)
+			(xy 72.39 196.85) (xy 76.2 196.85)
 		)
 		(stroke
 			(width 0)
@@ -7569,7 +7599,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 194.945) (xy 182.245 198.755)
+			(xy 182.88 195.58) (xy 182.88 199.39)
 		)
 		(stroke
 			(width 0)
@@ -7629,7 +7659,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 150.495) (xy 125.73 133.35)
+			(xy 125.73 151.13) (xy 125.73 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7695,7 +7725,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 94.615 165.1 0)
+		(at 95.25 165.1 0)
 		(effects
 			(font
 				(size 3.9878 3.9878)
@@ -7721,7 +7751,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 133.985 234.95 0)
+		(at 134.62 234.95 0)
 		(effects
 			(font
 				(size 3.9878 3.9878)
@@ -7745,7 +7775,7 @@
 	)
 	(text "ISP"
 		(exclude_from_sim no)
-		(at 212.09 167.005 0)
+		(at 212.09 167.64 0)
 		(effects
 			(font
 				(size 3.9878 3.9878)
@@ -7758,7 +7788,7 @@
 	)
 	(text "POWER LED"
 		(exclude_from_sim no)
-		(at 202.565 235.585 0)
+		(at 203.2 236.22 0)
 		(effects
 			(font
 				(size 3.9878 3.9878)
@@ -7771,6 +7801,7 @@
 	)
 	(label "col10"
 		(at 267.97 77.47 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7781,6 +7812,7 @@
 	)
 	(label "col0"
 		(at 99.06 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7791,6 +7823,7 @@
 	)
 	(label "col8"
 		(at 232.41 78.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7801,6 +7834,7 @@
 	)
 	(label "col9"
 		(at 250.19 80.01 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7811,6 +7845,7 @@
 	)
 	(label "col4"
 		(at 161.29 77.47 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7821,6 +7856,7 @@
 	)
 	(label "col2"
 		(at 125.73 77.47 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7831,6 +7867,7 @@
 	)
 	(label "row4"
 		(at 72.39 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7841,6 +7878,7 @@
 	)
 	(label "row2"
 		(at 72.39 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7851,6 +7889,7 @@
 	)
 	(label "col2"
 		(at 119.38 81.28 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7861,6 +7900,7 @@
 	)
 	(label "col1"
 		(at 107.95 76.2 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7871,6 +7911,7 @@
 	)
 	(label "col11"
 		(at 285.75 76.2 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7881,6 +7922,7 @@
 	)
 	(label "row0"
 		(at 72.39 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7891,6 +7933,7 @@
 	)
 	(label "col3"
 		(at 143.51 77.47 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7901,6 +7944,7 @@
 	)
 	(label "row3"
 		(at 72.39 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7911,6 +7955,7 @@
 	)
 	(label "col6"
 		(at 196.85 77.47 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7921,6 +7966,7 @@
 	)
 	(label "col0"
 		(at 90.17 76.2 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7931,6 +7977,7 @@
 	)
 	(label "col5"
 		(at 179.07 77.47 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7941,6 +7988,7 @@
 	)
 	(label "col14"
 		(at 339.09 77.47 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7951,6 +7999,7 @@
 	)
 	(label "col7"
 		(at 214.63 77.47 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7961,6 +8010,7 @@
 	)
 	(label "col12"
 		(at 303.53 78.74 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7971,6 +8021,7 @@
 	)
 	(label "col13"
 		(at 321.31 76.2 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7981,6 +8032,7 @@
 	)
 	(label "row1"
 		(at 72.39 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8011,7 +8063,7 @@
 	)
 	(global_label "reset"
 		(shape input)
-		(at 85.725 177.8 180)
+		(at 86.36 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8020,7 +8072,7 @@
 		)
 		(uuid "0f20e139-d757-427e-a19e-ff15e5bd9a67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.725 177.8 0)
+			(at 86.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +8083,7 @@
 	)
 	(global_label "col9"
 		(shape input)
-		(at 116.205 233.68 0)
+		(at 116.84 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8040,7 +8092,7 @@
 		)
 		(uuid "0f3c18c1-8dbf-4504-abc8-3a079be5c605")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 233.68 0)
+			(at 116.84 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8103,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 226.695 185.42 0)
+		(at 227.33 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8060,7 +8112,7 @@
 		)
 		(uuid "0f8c95bb-bccc-4e0b-ae1a-5f2d5547ce20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.695 185.42 0)
+			(at 227.33 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8183,7 @@
 	)
 	(global_label "col4"
 		(shape input)
-		(at 116.205 187.96 0)
+		(at 116.84 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8140,7 +8192,7 @@
 		)
 		(uuid "2395fe5b-d903-4456-a4d2-b52dbd33fc7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 187.96 0)
+			(at 116.84 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8203,7 @@
 	)
 	(global_label "row2"
 		(shape input)
-		(at 116.205 203.2 0)
+		(at 116.84 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8160,7 +8212,7 @@
 		)
 		(uuid "2bfbd657-0612-4870-92fb-754489665e0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 203.2 0)
+			(at 116.84 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8223,7 @@
 	)
 	(global_label "col12"
 		(shape input)
-		(at 116.205 226.06 0)
+		(at 116.84 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8180,7 +8232,7 @@
 		)
 		(uuid "2fc3e6c4-27de-41bf-8f51-68125676d076")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 226.06 0)
+			(at 116.84 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8263,7 @@
 	)
 	(global_label "boot"
 		(shape input)
-		(at 116.205 256.54 0)
+		(at 116.84 256.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8220,7 +8272,7 @@
 		)
 		(uuid "314eb06c-8cf2-4427-9cb4-b915513ed91b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 256.54 0)
+			(at 116.84 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8231,7 +8283,7 @@
 	)
 	(global_label "reset"
 		(shape input)
-		(at 226.695 187.96 0)
+		(at 227.33 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8240,7 +8292,7 @@
 		)
 		(uuid "33986546-8ab0-4f17-a711-5989c78120c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.695 187.96 0)
+			(at 227.33 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +8303,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 226.695 180.34 0)
+		(at 227.33 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8260,7 +8312,7 @@
 		)
 		(uuid "391b986b-4a1e-478f-a43c-cd708d21e777")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.695 180.34 0)
+			(at 227.33 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8323,7 @@
 	)
 	(global_label "reset"
 		(shape input)
-		(at 186.055 262.255 0)
+		(at 186.69 262.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8280,7 +8332,7 @@
 		)
 		(uuid "415505d1-015f-4b42-9778-4019d5bb6d88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.055 262.255 0)
+			(at 186.69 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,7 +8363,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 226.695 182.88 0)
+		(at 227.33 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8320,7 +8372,7 @@
 		)
 		(uuid "52f8ddfd-159f-474b-a007-a053e54420a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.695 182.88 0)
+			(at 227.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8331,7 +8383,7 @@
 	)
 	(global_label "col13"
 		(shape input)
-		(at 116.205 223.52 0)
+		(at 116.84 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8340,7 +8392,7 @@
 		)
 		(uuid "579e018c-f3e4-41b3-9cad-2858b9c5488b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 223.52 0)
+			(at 116.84 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +8483,7 @@
 	)
 	(global_label "col7"
 		(shape input)
-		(at 116.205 238.76 0)
+		(at 116.84 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8440,7 +8492,7 @@
 		)
 		(uuid "71ef1c19-4dc6-4a27-890b-7d0b83a5855e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 238.76 0)
+			(at 116.84 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,7 +8523,7 @@
 	)
 	(global_label "col6"
 		(shape input)
-		(at 116.205 261.62 0)
+		(at 116.84 261.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8480,7 +8532,7 @@
 		)
 		(uuid "8120f679-4384-47dd-98de-2b86bc168fa4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 261.62 0)
+			(at 116.84 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +8603,7 @@
 	)
 	(global_label "row0"
 		(shape input)
-		(at 116.205 205.74 0)
+		(at 116.84 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8560,7 +8612,7 @@
 		)
 		(uuid "96b0c95b-7eb5-4e58-9951-62ad696a9f7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 205.74 0)
+			(at 116.84 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +8643,7 @@
 	)
 	(global_label "col14"
 		(shape input)
-		(at 116.205 264.16 0)
+		(at 116.84 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8600,7 +8652,7 @@
 		)
 		(uuid "9b4205c1-0848-48e8-b0dd-04f06e815712")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 264.16 0)
+			(at 116.84 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8683,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 116.205 218.44 0)
+		(at 116.84 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8640,7 +8692,7 @@
 		)
 		(uuid "9f0a1809-7341-40ed-870c-7d7df9370ffe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 218.44 0)
+			(at 116.84 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +8703,7 @@
 	)
 	(global_label "row1"
 		(shape input)
-		(at 116.205 180.34 0)
+		(at 116.84 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8660,7 +8712,7 @@
 		)
 		(uuid "9ff387dc-b877-42fd-824a-434906c1b2bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 180.34 0)
+			(at 116.84 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8743,7 @@
 	)
 	(global_label "row4"
 		(shape input)
-		(at 116.205 200.66 0)
+		(at 116.84 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8700,7 +8752,7 @@
 		)
 		(uuid "ae6c202b-a0af-4796-a9ce-16f691980d50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 200.66 0)
+			(at 116.84 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8711,7 +8763,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 116.205 251.46 0)
+		(at 116.84 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8720,7 +8772,7 @@
 		)
 		(uuid "b005855c-9663-4a52-b2f0-516b624399c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 251.46 0)
+			(at 116.84 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +8783,7 @@
 	)
 	(global_label "col10"
 		(shape input)
-		(at 116.205 231.14 0)
+		(at 116.84 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8740,7 +8792,7 @@
 		)
 		(uuid "b418fefc-d281-4d79-815d-975ad5540013")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 231.14 0)
+			(at 116.84 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +8803,7 @@
 	)
 	(global_label "col11"
 		(shape input)
-		(at 116.205 228.6 0)
+		(at 116.84 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8760,7 +8812,7 @@
 		)
 		(uuid "b8f4b967-f086-418e-ae10-a310f4a2165e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 228.6 0)
+			(at 116.84 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +8843,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 116.205 215.9 0)
+		(at 116.84 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8800,7 +8852,7 @@
 		)
 		(uuid "c3587a1e-0db3-413a-90a4-9a183b0f5736")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 215.9 0)
+			(at 116.84 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,7 +8883,7 @@
 	)
 	(global_label "col5"
 		(shape input)
-		(at 116.205 259.08 0)
+		(at 116.84 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8840,7 +8892,7 @@
 		)
 		(uuid "cb891c3d-4d4f-4611-90ed-b2da54cbbfde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 259.08 0)
+			(at 116.84 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,7 +8903,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 188.595 194.945 0)
+		(at 189.23 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8860,7 +8912,7 @@
 		)
 		(uuid "cc4c4498-ecb0-45fc-b4ac-76f32c4ac3d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.595 194.945 0)
+			(at 189.23 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +8923,7 @@
 	)
 	(global_label "row3"
 		(shape input)
-		(at 116.205 177.8 0)
+		(at 116.84 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8880,7 +8932,7 @@
 		)
 		(uuid "d1da499c-2ac7-400c-a301-30c3abc3da15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 177.8 0)
+			(at 116.84 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8943,7 @@
 	)
 	(global_label "col0"
 		(shape input)
-		(at 116.205 182.88 0)
+		(at 116.84 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8900,7 +8952,7 @@
 		)
 		(uuid "d6fe2c32-463d-48c4-adfb-ec8a72ff90f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 182.88 0)
+			(at 116.84 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,7 +8963,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 116.205 254 0)
+		(at 116.84 254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8920,7 +8972,7 @@
 		)
 		(uuid "e0a4f393-87bd-42ce-a8e3-70f778fbb8ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 254 0)
+			(at 116.84 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,7 +8983,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 116.205 213.36 0)
+		(at 116.84 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8940,7 +8992,7 @@
 		)
 		(uuid "e17a2ddc-6142-4ac6-a885-07ac99eaa2b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 213.36 0)
+			(at 116.84 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +9003,7 @@
 	)
 	(global_label "col1"
 		(shape input)
-		(at 116.205 208.28 0)
+		(at 116.84 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8960,7 +9012,7 @@
 		)
 		(uuid "e41b53a9-cf15-4b29-b57e-eac807b98dac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 208.28 0)
+			(at 116.84 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +9023,7 @@
 	)
 	(global_label "col2"
 		(shape input)
-		(at 116.205 185.42 0)
+		(at 116.84 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8980,7 +9032,7 @@
 		)
 		(uuid "ed0e6c52-b6ed-48f9-a7e9-c6d618bce565")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 185.42 0)
+			(at 116.84 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,7 +9043,7 @@
 	)
 	(global_label "col3"
 		(shape input)
-		(at 116.205 210.82 0)
+		(at 116.84 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9000,7 +9052,7 @@
 		)
 		(uuid "ee3cac15-1015-40c4-b9d4-b83748e55758")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 210.82 0)
+			(at 116.84 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +9103,7 @@
 	)
 	(global_label "col8"
 		(shape input)
-		(at 116.205 236.22 0)
+		(at 116.84 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9060,7 +9112,7 @@
 		)
 		(uuid "f81b5bef-eab0-4c0a-90d9-336376ee049b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.205 236.22 0)
+			(at 116.84 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9071,7 +9123,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 188.595 192.405 0)
+		(at 189.23 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9080,7 +9132,7 @@
 		)
 		(uuid "f8fe6776-9363-41b7-a308-436816680db6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.595 192.405 0)
+			(at 189.23 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +9167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 82.55 74.93 0)
 			(effects
 				(font
@@ -9183,7 +9235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -9201,7 +9253,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -9251,7 +9321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 100.33 74.93 0)
 			(effects
 				(font
@@ -9319,7 +9389,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -9337,7 +9407,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -9387,7 +9475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -9455,7 +9543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 109.22 80.01 0)
 			(effects
 				(font
@@ -9473,7 +9561,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 80.01 0)
 			(effects
 				(font
@@ -9523,7 +9629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 135.89 74.93 0)
 			(effects
 				(font
@@ -9549,10 +9655,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "d0cd96c7-a97f-49b1-b21c-3c8577b2146b")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "45e72de3-33b6-4b11-8dbb-505dcb8f4acf")
 		)
 		(instances
@@ -9591,7 +9697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -9609,7 +9715,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 127 80.01 0)
 			(effects
 				(font
@@ -9659,7 +9783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -9727,7 +9851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -9745,7 +9869,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -9795,7 +9937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 171.45 74.93 0)
 			(effects
 				(font
@@ -9821,10 +9963,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "a100fe0b-dc42-4447-b1f4-b16aa65c973f")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "f6134172-c332-4670-927a-08781c8affec")
 		)
 		(instances
@@ -9863,7 +10005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 162.56 80.01 0)
 			(effects
 				(font
@@ -9881,7 +10023,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 162.56 80.01 0)
 			(effects
 				(font
@@ -9931,7 +10091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 189.23 74.93 0)
 			(effects
 				(font
@@ -9999,7 +10159,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 180.34 80.01 0)
 			(effects
 				(font
@@ -10017,7 +10177,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 180.34 80.01 0)
 			(effects
 				(font
@@ -10067,7 +10245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 207.01 74.93 0)
 			(effects
 				(font
@@ -10135,7 +10313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -10153,7 +10331,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 198.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 198.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -10203,7 +10399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 224.79 74.93 0)
 			(effects
 				(font
@@ -10271,7 +10467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 215.9 80.01 0)
 			(effects
 				(font
@@ -10289,7 +10485,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 215.9 80.01 0)
 			(effects
 				(font
@@ -10339,7 +10553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 242.57 74.93 0)
 			(effects
 				(font
@@ -10365,10 +10579,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "149c2def-937c-4820-b6d5-3877121cc569")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "c3c67eba-1163-493e-8129-ae4b2bf4f710")
 		)
 		(instances
@@ -10407,7 +10621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 233.68 80.01 0)
 			(effects
 				(font
@@ -10425,7 +10639,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 233.68 80.01 0)
 			(effects
 				(font
@@ -10475,7 +10707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 260.35 74.93 0)
 			(effects
 				(font
@@ -10501,10 +10733,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "473b6c8f-97a1-4c3c-a486-e681a38a7675")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "dda522f1-a852-4c9a-ab5c-04ba93ee0b37")
 		)
 		(instances
@@ -10543,7 +10775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 251.46 80.01 0)
 			(effects
 				(font
@@ -10561,7 +10793,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 251.46 80.01 0)
 			(effects
 				(font
@@ -10611,7 +10861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 278.13 74.93 0)
 			(effects
 				(font
@@ -10637,10 +10887,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "dfed533f-ff18-4cee-9000-25433c1b8bbf")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "cb9d1069-b3b7-4b37-9aff-dac3efd90c82")
 		)
 		(instances
@@ -10679,7 +10929,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 269.24 80.01 0)
 			(effects
 				(font
@@ -10697,7 +10947,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 269.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 269.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 269.24 80.01 0)
 			(effects
 				(font
@@ -10747,7 +11015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 295.91 74.93 0)
 			(effects
 				(font
@@ -10815,7 +11083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 287.02 80.01 0)
 			(effects
 				(font
@@ -10833,7 +11101,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 287.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 287.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 287.02 80.01 0)
 			(effects
 				(font
@@ -10883,7 +11169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_2.00u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 313.69 74.93 0)
 			(effects
 				(font
@@ -10951,7 +11237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 304.8 80.01 0)
 			(effects
 				(font
@@ -10969,7 +11255,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 304.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 304.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 304.8 80.01 0)
 			(effects
 				(font
@@ -11019,7 +11323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 331.47 74.93 0)
 			(effects
 				(font
@@ -11045,10 +11349,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "31e6cdea-e522-489e-a270-bd5e2046c252")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "ab5f829f-3f20-46ac-a680-24eb24c27c7a")
 		)
 		(instances
@@ -11087,7 +11391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 322.58 80.01 0)
 			(effects
 				(font
@@ -11105,7 +11409,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 322.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 322.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 322.58 80.01 0)
 			(effects
 				(font
@@ -11155,7 +11477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -11223,7 +11545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 73.66 93.98 0)
 			(effects
 				(font
@@ -11241,7 +11563,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 93.98 0)
 			(effects
 				(font
@@ -11291,7 +11631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 100.33 88.9 0)
 			(effects
 				(font
@@ -11317,10 +11657,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "f2647f08-24ed-4e60-8318-a1a6f09e3c52")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "5252a0f1-5be6-4298-aeae-6b663368e5ba")
 		)
 		(instances
@@ -11359,7 +11699,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 91.44 93.98 0)
 			(effects
 				(font
@@ -11377,7 +11717,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 93.98 0)
 			(effects
 				(font
@@ -11427,7 +11785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -11453,10 +11811,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "a8ec4e1b-1e41-4e84-80d4-3499e5d79543")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "2a936ead-bc64-4296-b466-20184549c1e0")
 		)
 		(instances
@@ -11495,7 +11853,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 109.22 93.98 0)
 			(effects
 				(font
@@ -11513,7 +11871,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 93.98 0)
 			(effects
 				(font
@@ -11563,7 +11939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -11589,10 +11965,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "b644a098-d392-40e8-a4c2-5ca2ab5b19b5")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "36e802a7-066e-4581-931c-3e2560455321")
 		)
 		(instances
@@ -11631,7 +12007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 127 93.98 0)
 			(effects
 				(font
@@ -11649,7 +12025,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 127 93.98 0)
 			(effects
 				(font
@@ -11699,7 +12093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -11767,7 +12161,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -11785,7 +12179,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -11835,7 +12247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -11903,7 +12315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 162.56 93.98 0)
 			(effects
 				(font
@@ -11921,7 +12333,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 162.56 93.98 0)
 			(effects
 				(font
@@ -11971,7 +12401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -12039,7 +12469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 180.34 93.98 0)
 			(effects
 				(font
@@ -12057,7 +12487,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 180.34 93.98 0)
 			(effects
 				(font
@@ -12107,7 +12555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 207.01 88.9 0)
 			(effects
 				(font
@@ -12133,10 +12581,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "d2b9bd21-1a1f-4199-aced-57143b7573a3")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "725ea619-a6ab-4142-ba79-39c06bccb50e")
 		)
 		(instances
@@ -12175,7 +12623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 198.12 93.98 0)
 			(effects
 				(font
@@ -12193,7 +12641,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 198.12 93.98 0)
 			(effects
 				(font
@@ -12243,7 +12709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 224.79 88.9 0)
 			(effects
 				(font
@@ -12269,10 +12735,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "b8ca7f19-181f-43f8-b268-7b95cafc2eeb")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "8ac99baa-736b-4474-ac7d-8778d3957279")
 		)
 		(instances
@@ -12311,7 +12777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 215.9 93.98 0)
 			(effects
 				(font
@@ -12329,7 +12795,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 215.9 93.98 0)
 			(effects
 				(font
@@ -12379,7 +12863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 242.57 88.9 0)
 			(effects
 				(font
@@ -12447,7 +12931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 233.68 93.98 0)
 			(effects
 				(font
@@ -12465,7 +12949,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 233.68 93.98 0)
 			(effects
 				(font
@@ -12515,7 +13017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 260.35 88.9 0)
 			(effects
 				(font
@@ -12541,10 +13043,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "a2a793ae-df72-4070-a4a7-7ff1de5268e1")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "08609b0e-4c72-46ad-b31d-77f441fa2322")
 		)
 		(instances
@@ -12583,7 +13085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 251.46 93.98 0)
 			(effects
 				(font
@@ -12601,7 +13103,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 251.46 93.98 0)
 			(effects
 				(font
@@ -12651,7 +13171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 278.13 88.9 0)
 			(effects
 				(font
@@ -12719,7 +13239,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 269.24 93.98 0)
 			(effects
 				(font
@@ -12737,7 +13257,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 269.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 269.24 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 269.24 93.98 0)
 			(effects
 				(font
@@ -12787,7 +13325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 295.91 88.9 0)
 			(effects
 				(font
@@ -12813,10 +13351,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "dad9f6e0-454a-4e02-ac72-3244f83ff93c")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "5df9b661-2563-481a-ad1e-4ab094ff0f7a")
 		)
 		(instances
@@ -12855,7 +13393,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 287.02 93.98 0)
 			(effects
 				(font
@@ -12873,7 +13411,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 287.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 287.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 287.02 93.98 0)
 			(effects
 				(font
@@ -12923,7 +13479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 313.69 88.9 0)
 			(effects
 				(font
@@ -12991,7 +13547,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 304.8 93.98 0)
 			(effects
 				(font
@@ -13009,7 +13565,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 304.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 304.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 304.8 93.98 0)
 			(effects
 				(font
@@ -13059,7 +13633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 331.47 88.9 0)
 			(effects
 				(font
@@ -13127,7 +13701,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 322.58 93.98 0)
 			(effects
 				(font
@@ -13145,7 +13719,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 322.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 322.58 93.98 0)
 			(effects
 				(font
@@ -13195,7 +13787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.75u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 82.55 104.14 0)
 			(effects
 				(font
@@ -13263,7 +13855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 73.66 109.22 0)
 			(effects
 				(font
@@ -13281,7 +13873,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 73.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 109.22 0)
 			(effects
 				(font
@@ -13331,7 +13941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 100.33 104.14 0)
 			(effects
 				(font
@@ -13399,7 +14009,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -13417,7 +14027,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -13467,7 +14095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 118.11 104.14 0)
 			(effects
 				(font
@@ -13493,10 +14121,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "3e6c29ae-77f5-420e-ab64-9c23ce84b00d")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "db0380c1-37e8-4cb6-8453-cf7dbe86cb4b")
 		)
 		(instances
@@ -13535,7 +14163,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 109.22 109.22 0)
 			(effects
 				(font
@@ -13553,7 +14181,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 109.22 0)
 			(effects
 				(font
@@ -13603,7 +14249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 135.89 104.14 0)
 			(effects
 				(font
@@ -13629,10 +14275,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "09fb8563-152f-4bc7-b24a-5afe8fa7b92e")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "cff35fdd-c9ce-4d4e-bf98-370a629dcd4d")
 		)
 		(instances
@@ -13671,7 +14317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 127 109.22 0)
 			(effects
 				(font
@@ -13689,7 +14335,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 127 109.22 0)
 			(effects
 				(font
@@ -13739,7 +14403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 153.67 104.14 0)
 			(effects
 				(font
@@ -13807,7 +14471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 144.78 109.22 0)
 			(effects
 				(font
@@ -13825,7 +14489,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 144.78 109.22 0)
 			(effects
 				(font
@@ -13875,7 +14557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 171.45 104.14 0)
 			(effects
 				(font
@@ -13943,7 +14625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -13961,7 +14643,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -14011,7 +14711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 189.23 104.14 0)
 			(effects
 				(font
@@ -14037,10 +14737,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "5d1a92f9-c902-4900-9eb1-9458961faef8")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "990ea662-44d5-4b81-9410-cb312de1024e")
 		)
 		(instances
@@ -14079,7 +14779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 180.34 109.22 0)
 			(effects
 				(font
@@ -14097,7 +14797,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 180.34 109.22 0)
 			(effects
 				(font
@@ -14147,7 +14865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -14173,10 +14891,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "9a1c6df4-9f5a-4562-98ee-ba2866f93ba7")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "5f8282d0-da8d-4459-86a6-90f38fdb805c")
 		)
 		(instances
@@ -14215,7 +14933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -14233,7 +14951,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 198.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 198.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -14283,7 +15019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 224.79 104.14 0)
 			(effects
 				(font
@@ -14351,7 +15087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 215.9 109.22 0)
 			(effects
 				(font
@@ -14369,7 +15105,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 215.9 109.22 0)
 			(effects
 				(font
@@ -14419,7 +15173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -14487,7 +15241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 233.68 109.22 0)
 			(effects
 				(font
@@ -14505,7 +15259,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 233.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 233.68 109.22 0)
 			(effects
 				(font
@@ -14555,7 +15327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 260.35 104.14 0)
 			(effects
 				(font
@@ -14581,10 +15353,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "2a2c2274-0a95-45f7-8db3-98e3580a233a")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "8ea9d029-cd52-4680-aa9f-2e0e637d863c")
 		)
 		(instances
@@ -14623,7 +15395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 251.46 109.22 0)
 			(effects
 				(font
@@ -14641,7 +15413,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 251.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 251.46 109.22 0)
 			(effects
 				(font
@@ -14691,7 +15481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 278.13 104.14 0)
 			(effects
 				(font
@@ -14717,10 +15507,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "62202f4a-6fec-48ab-8e49-169cfc398101")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "39ef52c5-2246-425a-a685-81ef20e39e2e")
 		)
 		(instances
@@ -14759,7 +15549,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 269.24 109.22 0)
 			(effects
 				(font
@@ -14777,7 +15567,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 269.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 269.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 269.24 109.22 0)
 			(effects
 				(font
@@ -14827,7 +15635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_2.25u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 313.69 104.14 0)
 			(effects
 				(font
@@ -14895,7 +15703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 304.8 109.22 0)
 			(effects
 				(font
@@ -14913,7 +15721,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 304.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 304.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 304.8 109.22 0)
 			(effects
 				(font
@@ -14963,7 +15789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 331.47 104.14 0)
 			(effects
 				(font
@@ -14989,10 +15815,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "96558208-a12f-40e6-9def-60c6733abffa")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "d8b745b9-29b9-42ba-8a6f-125282add2b6")
 		)
 		(instances
@@ -15031,7 +15857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 322.58 109.22 0)
 			(effects
 				(font
@@ -15049,7 +15875,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 322.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 322.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 322.58 109.22 0)
 			(effects
 				(font
@@ -15099,7 +15943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_2.25u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -15125,10 +15969,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "9720243e-8a03-494a-8c09-b6eaf7313c2d")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "efd991e2-2f15-45e9-9974-f5a5ce175373")
 		)
 		(instances
@@ -15167,7 +16011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 73.66 124.46 0)
 			(effects
 				(font
@@ -15185,7 +16029,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 124.46 0)
 			(effects
 				(font
@@ -15235,7 +16097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 118.11 119.38 0)
 			(effects
 				(font
@@ -15303,7 +16165,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 109.22 124.46 0)
 			(effects
 				(font
@@ -15321,7 +16183,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 124.46 0)
 			(effects
 				(font
@@ -15371,7 +16251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 135.89 119.38 0)
 			(effects
 				(font
@@ -15439,7 +16319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 127 124.46 0)
 			(effects
 				(font
@@ -15457,7 +16337,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 127 124.46 0)
 			(effects
 				(font
@@ -15507,7 +16405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 153.67 119.38 0)
 			(effects
 				(font
@@ -15533,10 +16431,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "fa89e77a-e30e-4854-872a-d738be7994d4")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "45230505-ee30-4818-98c7-c01b4c7a7394")
 		)
 		(instances
@@ -15575,7 +16473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 144.78 124.46 0)
 			(effects
 				(font
@@ -15593,7 +16491,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 144.78 124.46 0)
 			(effects
 				(font
@@ -15643,7 +16559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 171.45 119.38 0)
 			(effects
 				(font
@@ -15711,7 +16627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 162.56 124.46 0)
 			(effects
 				(font
@@ -15729,7 +16645,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 162.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 162.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 162.56 124.46 0)
 			(effects
 				(font
@@ -15779,7 +16713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 189.23 119.38 0)
 			(effects
 				(font
@@ -15847,7 +16781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 180.34 124.46 0)
 			(effects
 				(font
@@ -15865,7 +16799,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 180.34 124.46 0)
 			(effects
 				(font
@@ -15915,7 +16867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 207.01 119.38 0)
 			(effects
 				(font
@@ -15941,10 +16893,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "4476b6e5-4065-4256-b0d8-3a7976080da5")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "6f713088-4f34-4c52-9bd5-edb8390a3489")
 		)
 		(instances
@@ -15983,7 +16935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 198.12 124.46 0)
 			(effects
 				(font
@@ -16001,7 +16953,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 198.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 198.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 198.12 124.46 0)
 			(effects
 				(font
@@ -16051,7 +17021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 224.79 119.38 0)
 			(effects
 				(font
@@ -16119,7 +17089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 215.9 124.46 0)
 			(effects
 				(font
@@ -16137,7 +17107,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 215.9 124.46 0)
 			(effects
 				(font
@@ -16187,7 +17175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 242.57 119.38 0)
 			(effects
 				(font
@@ -16255,7 +17243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 233.68 124.46 0)
 			(effects
 				(font
@@ -16273,7 +17261,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 233.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 233.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 233.68 124.46 0)
 			(effects
 				(font
@@ -16323,7 +17329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 260.35 119.38 0)
 			(effects
 				(font
@@ -16349,10 +17355,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "16742c0d-c5aa-467f-88e3-fc496e9aa663")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "c2e3b5de-0441-4cab-910b-503cbae6a911")
 		)
 		(instances
@@ -16391,7 +17397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 251.46 124.46 0)
 			(effects
 				(font
@@ -16409,7 +17415,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 251.46 124.46 0)
 			(effects
 				(font
@@ -16459,7 +17483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 278.13 119.38 0)
 			(effects
 				(font
@@ -16485,10 +17509,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "b710bc8c-b82e-4031-b4f0-31a55cf5144b")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "6168dd9e-1de1-444b-886e-248181a90ef6")
 		)
 		(instances
@@ -16527,7 +17551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 269.24 124.46 0)
 			(effects
 				(font
@@ -16545,7 +17569,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 269.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 269.24 124.46 0)
 			(effects
 				(font
@@ -16595,7 +17637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.75u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 295.91 119.38 0)
 			(effects
 				(font
@@ -16663,7 +17705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 287.02 124.46 0)
 			(effects
 				(font
@@ -16681,7 +17723,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 287.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 287.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 287.02 124.46 0)
 			(effects
 				(font
@@ -16731,7 +17791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 313.69 119.38 0)
 			(effects
 				(font
@@ -16757,10 +17817,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "c7fb5ede-e539-444a-9408-3cb62e560a1f")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "04edd132-5488-4fde-a4fd-b7fd965a7a16")
 		)
 		(instances
@@ -16799,7 +17859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 304.8 124.46 0)
 			(effects
 				(font
@@ -16817,7 +17877,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 304.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 304.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 304.8 124.46 0)
 			(effects
 				(font
@@ -16867,7 +17945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 331.47 119.38 0)
 			(effects
 				(font
@@ -16935,7 +18013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 322.58 124.46 0)
 			(effects
 				(font
@@ -16953,7 +18031,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 322.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 322.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 322.58 124.46 0)
 			(effects
 				(font
@@ -17003,7 +18099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 82.55 133.35 0)
 			(effects
 				(font
@@ -17029,10 +18125,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "40ad5176-8cd8-4e9d-8eff-49db419199a3")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "5a263dfa-6f39-4ea4-9f10-bfa05a198f02")
 		)
 		(instances
@@ -17071,7 +18167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 73.66 138.43 0)
 			(effects
 				(font
@@ -17089,7 +18185,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 138.43 0)
 			(effects
 				(font
@@ -17139,7 +18253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 100.33 133.35 0)
 			(effects
 				(font
@@ -17165,10 +18279,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "75d5704f-8d49-4cd9-9d03-daea7f7f4b71")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "be12a185-f27e-4501-b776-27cb18e5923a")
 		)
 		(instances
@@ -17207,7 +18321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 91.44 138.43 0)
 			(effects
 				(font
@@ -17225,7 +18339,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 138.43 0)
 			(effects
 				(font
@@ -17275,7 +18407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 118.11 133.35 0)
 			(effects
 				(font
@@ -17343,7 +18475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 109.22 138.43 0)
 			(effects
 				(font
@@ -17361,7 +18493,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 109.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 109.22 138.43 0)
 			(effects
 				(font
@@ -17411,7 +18561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 189.23 133.35 0)
 			(effects
 				(font
@@ -17437,10 +18587,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "8f4f82ae-24fa-41e2-9047-c6d5d73ec1ec")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "087680f5-fb8c-403f-b4ac-339266365b12")
 		)
 		(instances
@@ -17479,7 +18629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 180.34 138.43 0)
 			(effects
 				(font
@@ -17497,7 +18647,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 180.34 138.43 0)
 			(effects
 				(font
@@ -17547,7 +18715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 242.57 133.35 0)
 			(effects
 				(font
@@ -17615,7 +18783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 233.68 138.43 0)
 			(effects
 				(font
@@ -17633,7 +18801,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 233.68 138.43 0)
 			(effects
 				(font
@@ -17683,7 +18869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 260.35 133.35 0)
 			(effects
 				(font
@@ -17709,10 +18895,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "2b99f603-54b7-46e6-aeb3-2396d5eb2a44")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "86ee475d-ca74-4fb3-830a-6c5898a96ed0")
 		)
 		(instances
@@ -17751,7 +18937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 251.46 138.43 0)
 			(effects
 				(font
@@ -17769,7 +18955,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 251.46 138.43 0)
 			(effects
 				(font
@@ -17819,7 +19023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 295.91 133.35 0)
 			(effects
 				(font
@@ -17887,7 +19091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 287.02 138.43 0)
 			(effects
 				(font
@@ -17905,7 +19109,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 287.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 287.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 287.02 138.43 0)
 			(effects
 				(font
@@ -17955,7 +19177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 313.69 133.35 0)
 			(effects
 				(font
@@ -17981,10 +19203,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "3e97e682-e062-4a01-887a-daae668439c2")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "c60bd631-a280-48a5-b791-3ea9f580b819")
 		)
 		(instances
@@ -18023,7 +19245,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 304.8 138.43 0)
 			(effects
 				(font
@@ -18041,7 +19263,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 304.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 304.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 304.8 138.43 0)
 			(effects
 				(font
@@ -18091,7 +19331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 331.47 133.35 0)
 			(effects
 				(font
@@ -18117,10 +19357,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "dec34c3c-2fb5-4c44-9d9b-aeb3a6a43cad")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "8a41a62f-5e3b-4a0b-8cfd-5d69f8591734")
 		)
 		(instances
@@ -18159,7 +19399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 322.58 138.43 0)
 			(effects
 				(font
@@ -18177,7 +19417,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 322.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 322.58 138.43 0)
 			(effects
 				(font
@@ -18203,7 +19461,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 174.625 189.865 270)
+		(at 175.26 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18211,7 +19469,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d059885")
 		(property "Reference" "R1"
-			(at 174.625 187.325 90)
+			(at 175.26 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18219,7 +19477,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 174.625 189.865 90)
+			(at 175.26 190.5 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -18227,7 +19485,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 174.625 189.865 0)
+			(at 175.26 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18236,7 +19494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 174.625 189.865 0)
+			(at 175.26 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18245,7 +19503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 174.625 189.865 0)
+			(at 175.26 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18270,7 +19528,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 174.625 205.105 90)
+		(at 175.26 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18278,7 +19536,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d059db7")
 		(property "Reference" "R2"
-			(at 174.625 202.565 90)
+			(at 175.26 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18286,7 +19544,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 174.625 205.105 90)
+			(at 175.26 205.74 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -18294,7 +19552,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 174.625 205.105 0)
+			(at 175.26 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18303,7 +19561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 174.625 205.105 0)
+			(at 175.26 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18312,7 +19570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 174.625 205.105 0)
+			(at 175.26 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18361,7 +19619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 278.13 133.35 0)
 			(effects
 				(font
@@ -18429,7 +19687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 269.24 138.43 0)
 			(effects
 				(font
@@ -18447,7 +19705,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 269.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 269.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 269.24 138.43 0)
 			(effects
 				(font
@@ -18473,7 +19749,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:USB_C_GCT_USB4085-Type-C")
-		(at 156.845 196.215 0)
+		(at 157.48 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18481,7 +19757,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d127de0")
 		(property "Reference" "USB1"
-			(at 152.5524 169.8752 0)
+			(at 153.1874 170.5102 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18489,7 +19765,7 @@
 			)
 		)
 		(property "Value" "USB_C_GCT_USB4085"
-			(at 152.5524 172.5676 0)
+			(at 153.1874 173.2026 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18497,7 +19773,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:USB_C_GCT_USB4085"
-			(at 156.845 196.215 0)
+			(at 157.48 196.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18506,7 +19782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 196.215 0)
+			(at 157.48 196.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18515,7 +19791,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.845 196.215 0)
+			(at 157.48 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18585,7 +19861,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:CP1_Small-Device")
-		(at 139.7 245.745 0)
+		(at 139.7 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18593,7 +19869,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d175b8c")
 		(property "Reference" "C3"
-			(at 138.43 241.935 0)
+			(at 138.43 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18602,7 +19878,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 137.16 249.555 0)
+			(at 137.16 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18611,7 +19887,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:CP_Radial_D4.0mm_P1.50mm"
-			(at 139.7 245.745 0)
+			(at 139.7 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18620,7 +19896,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 245.745 0)
+			(at 139.7 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18629,7 +19905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 245.745 0)
+			(at 139.7 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18654,7 +19930,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 143.51 245.745 0)
+		(at 143.51 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18662,7 +19938,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d176d89")
 		(property "Reference" "C4"
-			(at 142.24 241.935 0)
+			(at 142.24 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18671,7 +19947,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 142.24 249.555 0)
+			(at 142.24 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18680,7 +19956,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 143.51 245.745 0)
+			(at 143.51 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18689,7 +19965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 245.745 0)
+			(at 143.51 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18698,7 +19974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 245.745 0)
+			(at 143.51 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18723,7 +19999,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 147.32 245.745 0)
+		(at 147.32 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18731,7 +20007,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d176ed3")
 		(property "Reference" "C5"
-			(at 146.05 241.935 0)
+			(at 146.05 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18740,7 +20016,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 147.32 249.555 0)
+			(at 147.32 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18749,7 +20025,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 147.32 245.745 0)
+			(at 147.32 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18758,7 +20034,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 245.745 0)
+			(at 147.32 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18767,7 +20043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 245.745 0)
+			(at 147.32 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18792,7 +20068,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener_Small")
-		(at 179.705 201.295 270)
+		(at 180.34 201.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18800,7 +20076,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d184b7b")
 		(property "Reference" "D69"
-			(at 177.165 198.755 90)
+			(at 177.8 199.39 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -18809,7 +20085,7 @@
 			)
 		)
 		(property "Value" "3.6V"
-			(at 182.245 200.025 90)
+			(at 182.88 200.66 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -18818,7 +20094,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
-			(at 179.705 201.295 90)
+			(at 180.34 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18827,7 +20103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.705 201.295 90)
+			(at 180.34 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18836,7 +20112,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.705 201.295 0)
+			(at 180.34 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18861,7 +20137,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener_Small")
-		(at 182.245 201.295 270)
+		(at 182.88 201.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18869,7 +20145,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d184d75")
 		(property "Reference" "D70"
-			(at 182.245 198.755 90)
+			(at 182.88 199.39 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -18878,7 +20154,7 @@
 			)
 		)
 		(property "Value" "3.6V"
-			(at 177.165 200.025 90)
+			(at 177.8 200.66 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -18887,7 +20163,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
-			(at 182.245 201.295 90)
+			(at 182.88 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18896,7 +20172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.245 201.295 90)
+			(at 182.88 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18905,7 +20181,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.245 201.295 0)
+			(at 182.88 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18930,7 +20206,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:SW_PUSH-keyboard_parts")
-		(at 170.815 262.255 0)
+		(at 171.45 262.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18939,7 +20215,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d18d9c7")
 		(property "Reference" "RESET1"
-			(at 170.815 255.778 0)
+			(at 171.45 256.413 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18947,7 +20223,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 170.815 258.0894 0)
+			(at 171.45 258.7244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18955,7 +20231,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:SW_PUSH_6mm"
-			(at 170.815 262.255 0)
+			(at 171.45 262.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18964,7 +20240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.815 262.255 0)
+			(at 171.45 262.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18972,7 +20248,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.815 262.255 0)
+			(at 171.45 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18997,7 +20273,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:+5V-power")
-		(at 143.51 240.665 0)
+		(at 143.51 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19005,7 +20281,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d193dad")
 		(property "Reference" "#PWR0111"
-			(at 143.51 238.379 0)
+			(at 143.51 239.014 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -19014,7 +20290,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 143.4084 237.4138 0)
+			(at 143.4084 238.0488 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -19022,7 +20298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 240.665 0)
+			(at 143.51 241.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19030,7 +20306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 240.665 0)
+			(at 143.51 241.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19038,7 +20314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 240.665 0)
+			(at 143.51 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19060,7 +20336,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:+5V-power")
-		(at 103.505 170.18 0)
+		(at 104.14 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19068,7 +20344,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d19bd7f")
 		(property "Reference" "#PWR0103"
-			(at 103.505 167.894 0)
+			(at 104.14 167.894 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -19077,7 +20353,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 103.4034 166.9288 0)
+			(at 104.0384 166.9288 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -19085,7 +20361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.505 170.18 0)
+			(at 104.14 170.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19093,7 +20369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.505 170.18 0)
+			(at 104.14 170.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19101,7 +20377,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 103.505 170.18 0)
+			(at 104.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19123,7 +20399,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:GND-power")
-		(at 100.965 271.78 0)
+		(at 101.6 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19131,7 +20407,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d19c23e")
 		(property "Reference" "#PWR0104"
-			(at 100.965 278.13 0)
+			(at 101.6 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19140,7 +20416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.092 276.1742 0)
+			(at 101.727 276.1742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19148,7 +20424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.965 271.78 0)
+			(at 101.6 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19157,7 +20433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.965 271.78 0)
+			(at 101.6 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +20442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.965 271.78 0)
+			(at 101.6 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19188,7 +20464,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 182.245 259.715 0)
+		(at 182.88 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19196,7 +20472,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d19ed3b")
 		(property "Reference" "R7"
-			(at 183.7436 258.5466 0)
+			(at 184.3786 259.1816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19205,7 +20481,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 183.7436 260.858 0)
+			(at 184.3786 261.493 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19214,7 +20490,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 182.245 259.715 0)
+			(at 182.88 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19223,7 +20499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.245 259.715 0)
+			(at 182.88 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19232,7 +20508,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.245 259.715 0)
+			(at 182.88 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19257,7 +20533,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:+5V-power")
-		(at 182.245 257.175 0)
+		(at 182.88 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19265,7 +20541,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d19f096")
 		(property "Reference" "#PWR0116"
-			(at 182.245 254.889 0)
+			(at 182.88 255.524 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -19274,7 +20550,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 182.1434 253.9238 0)
+			(at 182.7784 254.5588 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -19282,7 +20558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.245 257.175 0)
+			(at 182.88 257.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19290,7 +20566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.245 257.175 0)
+			(at 182.88 257.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19298,7 +20574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.245 257.175 0)
+			(at 182.88 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19320,7 +20596,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:GND-power")
-		(at 163.195 262.255 0)
+		(at 163.83 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19328,7 +20604,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1aaaac")
 		(property "Reference" "#PWR0113"
-			(at 163.195 268.605 0)
+			(at 163.83 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19337,7 +20613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.322 266.6492 0)
+			(at 163.957 267.2842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19345,7 +20621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.195 262.255 0)
+			(at 163.83 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19354,7 +20630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.195 262.255 0)
+			(at 163.83 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19363,7 +20639,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.195 262.255 0)
+			(at 163.83 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19385,7 +20661,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 220.345 242.57 0)
+		(at 220.98 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19393,7 +20669,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1ad596")
 		(property "Reference" "LED1"
-			(at 221.615 237.49 0)
+			(at 222.25 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19401,7 +20677,7 @@
 			)
 		)
 		(property "Value" "POWER"
-			(at 220.1164 239.395 0)
+			(at 220.7514 239.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19409,7 +20685,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:LED_D3.0mm"
-			(at 220.345 242.57 0)
+			(at 220.98 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19418,7 +20694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.345 242.57 0)
+			(at 220.98 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19427,7 +20703,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.345 242.57 0)
+			(at 220.98 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19452,7 +20728,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:+5V-power")
-		(at 224.155 242.57 0)
+		(at 224.79 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19460,7 +20736,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1ad8df")
 		(property "Reference" "#PWR0114"
-			(at 224.155 240.284 0)
+			(at 224.79 240.284 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -19469,7 +20745,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 225.425 240.03 0)
+			(at 226.06 240.03 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -19477,7 +20753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.155 242.57 0)
+			(at 224.79 242.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19485,7 +20761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.155 242.57 0)
+			(at 224.79 242.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19493,7 +20769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.155 242.57 0)
+			(at 224.79 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19515,7 +20791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 213.995 242.57 270)
+		(at 214.63 242.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19523,7 +20799,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1ada68")
 		(property "Reference" "R6"
-			(at 213.995 237.5916 90)
+			(at 214.63 237.5916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19531,7 +20807,7 @@
 			)
 		)
 		(property "Value" "1.5K"
-			(at 213.995 239.903 90)
+			(at 214.63 239.903 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19539,7 +20815,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 213.995 242.57 0)
+			(at 214.63 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19548,7 +20824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.995 242.57 0)
+			(at 214.63 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19557,7 +20833,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.995 242.57 0)
+			(at 214.63 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19582,7 +20858,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:GND-power")
-		(at 211.455 242.57 0)
+		(at 212.09 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19590,7 +20866,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1adc86")
 		(property "Reference" "#PWR0115"
-			(at 211.455 248.92 0)
+			(at 212.09 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19599,7 +20875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 211.582 246.9642 0)
+			(at 212.217 246.9642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19607,7 +20883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 211.455 242.57 0)
+			(at 212.09 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19616,7 +20892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.455 242.57 0)
+			(at 212.09 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19625,7 +20901,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.455 242.57 0)
+			(at 212.09 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19779,7 +21055,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 186.055 192.405 270)
+		(at 186.69 193.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19787,7 +21063,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1c25ec")
 		(property "Reference" "R3"
-			(at 186.055 189.865 90)
+			(at 186.69 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19795,7 +21071,7 @@
 			)
 		)
 		(property "Value" "75R"
-			(at 186.055 192.405 90)
+			(at 186.69 193.04 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -19803,7 +21079,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 186.055 192.405 0)
+			(at 186.69 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19812,7 +21088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.055 192.405 0)
+			(at 186.69 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19821,7 +21097,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.055 192.405 0)
+			(at 186.69 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19846,7 +21122,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 186.055 194.945 270)
+		(at 186.69 195.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19854,7 +21130,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1c27d1")
 		(property "Reference" "R4"
-			(at 186.055 197.485 90)
+			(at 186.69 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19862,7 +21138,7 @@
 			)
 		)
 		(property "Value" "75R"
-			(at 186.055 194.945 90)
+			(at 186.69 195.58 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -19870,7 +21146,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 186.055 194.945 0)
+			(at 186.69 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19879,7 +21155,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.055 194.945 0)
+			(at 186.69 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19888,7 +21164,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.055 194.945 0)
+			(at 186.69 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19913,7 +21189,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:GND-power")
-		(at 177.165 217.805 0)
+		(at 177.8 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19921,7 +21197,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1e1072")
 		(property "Reference" "#PWR0102"
-			(at 177.165 224.155 0)
+			(at 177.8 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19930,7 +21206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.292 222.1992 0)
+			(at 177.927 222.8342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19938,7 +21214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.165 217.805 0)
+			(at 177.8 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19947,7 +21223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.165 217.805 0)
+			(at 177.8 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19956,7 +21232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.165 217.805 0)
+			(at 177.8 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19978,7 +21254,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:GND-power")
-		(at 182.245 203.835 0)
+		(at 182.88 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19986,7 +21262,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d205d44")
 		(property "Reference" "#PWR0101"
-			(at 182.245 210.185 0)
+			(at 182.88 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19995,7 +21271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.372 208.2292 0)
+			(at 183.007 208.8642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20003,7 +21279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.245 203.835 0)
+			(at 182.88 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20012,7 +21288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.245 203.835 0)
+			(at 182.88 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20021,7 +21297,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.245 203.835 0)
+			(at 182.88 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20043,7 +21319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 75.565 194.31 0)
+		(at 76.2 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20051,7 +21327,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d22bd08")
 		(property "Reference" "C2"
-			(at 78.105 191.77 0)
+			(at 78.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20060,7 +21336,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 78.105 194.31 0)
+			(at 78.74 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20069,7 +21345,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 75.565 194.31 0)
+			(at 76.2 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20078,7 +21354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 75.565 194.31 0)
+			(at 76.2 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20087,7 +21363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.565 194.31 0)
+			(at 76.2 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20112,7 +21388,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 71.755 194.31 0)
+		(at 72.39 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20120,7 +21396,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d22be46")
 		(property "Reference" "C1"
-			(at 66.675 191.77 0)
+			(at 67.31 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20129,7 +21405,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 65.405 194.31 0)
+			(at 66.04 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20138,7 +21414,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 71.755 194.31 0)
+			(at 72.39 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20147,7 +21423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.755 194.31 0)
+			(at 72.39 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20156,7 +21432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.755 194.31 0)
+			(at 72.39 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20181,7 +21457,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:+5V-power")
-		(at 213.995 172.72 0)
+		(at 214.63 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20189,7 +21465,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d23f01d")
 		(property "Reference" "#PWR0108"
-			(at 213.995 170.434 0)
+			(at 214.63 170.434 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -20198,7 +21474,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 213.8934 169.4688 0)
+			(at 214.5284 169.4688 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20206,7 +21482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.995 172.72 0)
+			(at 214.63 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20214,7 +21490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.995 172.72 0)
+			(at 214.63 172.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20222,7 +21498,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.995 172.72 0)
+			(at 214.63 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20244,7 +21520,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:GND-power")
-		(at 75.565 196.85 0)
+		(at 76.2 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20252,7 +21528,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d277157")
 		(property "Reference" "#PWR0107"
-			(at 75.565 203.2 0)
+			(at 76.2 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20261,7 +21537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 75.692 201.2442 0)
+			(at 76.327 201.2442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20269,7 +21545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.565 196.85 0)
+			(at 76.2 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20278,7 +21554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 75.565 196.85 0)
+			(at 76.2 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20287,7 +21563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.565 196.85 0)
+			(at 76.2 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20309,7 +21585,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 169.545 184.785 0)
+		(at 170.18 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20317,7 +21593,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2b8cd8")
 		(property "Reference" "R5"
-			(at 170.815 180.975 0)
+			(at 171.45 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20326,7 +21602,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 169.545 186.055 90)
+			(at 170.18 186.69 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -20335,7 +21611,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 169.545 184.785 0)
+			(at 170.18 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20344,7 +21620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 169.545 184.785 0)
+			(at 170.18 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20353,7 +21629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 169.545 184.785 0)
+			(at 170.18 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20378,7 +21654,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:+5V-power")
-		(at 169.545 180.975 0)
+		(at 170.18 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20386,7 +21662,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2d4a6b")
 		(property "Reference" "#PWR0109"
-			(at 169.545 178.689 0)
+			(at 170.18 179.324 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -20395,7 +21671,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 169.4434 177.7238 0)
+			(at 170.0784 178.3588 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20403,7 +21679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.545 180.975 0)
+			(at 170.18 181.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20411,7 +21687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.545 180.975 0)
+			(at 170.18 181.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20419,7 +21695,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 169.545 180.975 0)
+			(at 170.18 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20441,7 +21717,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:VCC-power")
-		(at 163.195 184.785 0)
+		(at 163.83 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20449,7 +21725,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2f7246")
 		(property "Reference" "#PWR0105"
-			(at 163.195 188.595 0)
+			(at 163.83 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20458,7 +21734,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 163.6268 180.3908 0)
+			(at 164.2618 181.0258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20466,7 +21742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.195 184.785 0)
+			(at 163.83 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20475,7 +21751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.195 184.785 0)
+			(at 163.83 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20484,7 +21760,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.195 184.785 0)
+			(at 163.83 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20506,7 +21782,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 167.005 173.355 0)
+		(at 167.64 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20514,7 +21790,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2f73b7")
 		(property "Reference" "F1"
-			(at 168.7322 172.1866 0)
+			(at 169.3672 172.8216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20523,7 +21799,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 168.7322 174.498 0)
+			(at 169.3672 175.133 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20532,7 +21808,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:polyfuse_5.1mm"
-			(at 168.275 178.435 0)
+			(at 168.91 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20542,7 +21818,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.005 173.355 0)
+			(at 167.64 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20551,7 +21827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.005 173.355 0)
+			(at 167.64 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20576,7 +21852,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:+5V-power")
-		(at 167.005 170.815 0)
+		(at 167.64 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20584,7 +21860,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d31262d")
 		(property "Reference" "#PWR0110"
-			(at 167.005 168.529 0)
+			(at 167.64 169.164 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -20593,7 +21869,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 166.9034 167.5638 0)
+			(at 167.5384 168.1988 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20601,7 +21877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.005 170.815 0)
+			(at 167.64 171.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20609,7 +21885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.005 170.815 0)
+			(at 167.64 171.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20617,7 +21893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.005 170.815 0)
+			(at 167.64 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20639,7 +21915,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:AVR-ISP-6-Connector")
-		(at 216.535 185.42 0)
+		(at 217.17 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20647,7 +21923,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d525b77")
 		(property "Reference" "J1"
-			(at 221.615 171.45 0)
+			(at 222.25 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20656,7 +21932,7 @@
 			)
 		)
 		(property "Value" "AVR-ISP-6"
-			(at 226.695 173.99 0)
+			(at 227.33 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20665,7 +21941,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:AVR_ICSP_3x2"
-			(at 210.185 184.15 90)
+			(at 210.82 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20674,7 +21950,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 184.15 199.39 0)
+			(at 184.785 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20683,7 +21959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 216.535 185.42 0)
+			(at 217.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20720,7 +21996,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:GND-power")
-		(at 213.995 195.58 0)
+		(at 214.63 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20728,7 +22004,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d525cfa")
 		(property "Reference" "#PWR0106"
-			(at 213.995 201.93 0)
+			(at 214.63 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20737,7 +22013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.122 199.9742 0)
+			(at 214.757 199.9742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20745,7 +22021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.995 195.58 0)
+			(at 214.63 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20754,7 +22030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.995 195.58 0)
+			(at 214.63 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20763,7 +22039,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.995 195.58 0)
+			(at 214.63 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20785,7 +22061,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:GND-power")
-		(at 143.51 250.825 0)
+		(at 143.51 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20793,7 +22069,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da49277")
 		(property "Reference" "#PWR0112"
-			(at 143.51 257.175 0)
+			(at 143.51 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20802,7 +22078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.637 255.2192 0)
+			(at 143.637 255.8542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20810,7 +22086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 250.825 0)
+			(at 143.51 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20819,7 +22095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 250.825 0)
+			(at 143.51 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20828,7 +22104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 250.825 0)
+			(at 143.51 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20874,7 +22150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 59.69 104.14 0)
 			(effects
 				(font
@@ -20900,10 +22176,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "9f1261b8-26b6-4b3c-9b54-f575e791bbfe")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "97e5b042-9da9-43e5-8d54-d8952b47bb5a")
 		)
 		(instances
@@ -20917,7 +22193,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:KEYSW-keyboard_parts")
-		(at 82.55 150.495 0)
+		(at 82.55 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20925,7 +22201,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dc5e2a2")
 		(property "Reference" "SW70"
-			(at 82.55 144.5768 0)
+			(at 82.55 145.2118 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20933,7 +22209,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 82.55 153.035 0)
+			(at 82.55 153.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20941,8 +22217,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN"
-			(at 82.55 150.495 0)
+		(property "Footprint" ""
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20951,7 +22227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 150.495 0)
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20959,7 +22235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 150.495 0)
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20967,10 +22243,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "cf0c0118-59e5-40eb-a7fc-6d75f2ecaa40")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "c39a55c3-9f44-4fcf-aea3-ae999653bf36")
 		)
 		(instances
@@ -20984,7 +22260,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:KEYSW-keyboard_parts")
-		(at 118.11 150.495 0)
+		(at 118.11 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20992,7 +22268,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dc9ec8e")
 		(property "Reference" "SW71"
-			(at 118.11 144.5768 0)
+			(at 118.11 145.2118 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21000,7 +22276,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 118.11 153.035 0)
+			(at 118.11 153.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21008,8 +22284,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN"
-			(at 118.11 150.495 0)
+		(property "Footprint" ""
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21018,7 +22294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 150.495 0)
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21026,7 +22302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 150.495 0)
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21034,10 +22310,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "47a2629b-ec78-4000-9a2f-70de351d4e17")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "72073524-cda4-410b-849b-db635f27c1bd")
 		)
 		(instances
@@ -21051,7 +22327,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:KEYSW-keyboard_parts")
-		(at 189.23 150.495 0)
+		(at 189.23 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21059,7 +22335,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dce7558")
 		(property "Reference" "SW72"
-			(at 189.23 144.5768 0)
+			(at 189.23 145.2118 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21067,7 +22343,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 189.23 153.035 0)
+			(at 189.23 153.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21075,8 +22351,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
-			(at 189.23 150.495 0)
+		(property "Footprint" ""
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21085,7 +22361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 150.495 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21093,7 +22369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 150.495 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21142,7 +22418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 242.57 149.86 0)
 			(effects
 				(font
@@ -21209,7 +22485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN"
+		(property "Footprint" ""
 			(at 260.35 149.86 0)
 			(effects
 				(font
@@ -21235,10 +22511,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "5d4fbc3e-6652-4a63-aa6b-0cc0e0a77493")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "7b761f0d-a9bf-4802-b15c-d6c61eb03d22")
 		)
 		(instances
@@ -21252,7 +22528,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:ATmega32A-PU-MCU_Microchip_ATmega")
-		(at 100.965 220.98 0)
+		(at 101.6 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21260,7 +22536,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005df0b623")
 		(property "Reference" "U1"
-			(at 97.155 218.44 0)
+			(at 97.79 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21268,7 +22544,7 @@
 			)
 		)
 		(property "Value" "ATmega32A-PU"
-			(at 98.425 220.98 0)
+			(at 99.06 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21276,7 +22552,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:DIP-40_W15.24mm"
-			(at 100.965 220.98 0)
+			(at 101.6 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21286,7 +22562,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf"
-			(at 100.965 220.98 0)
+			(at 101.6 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21295,7 +22571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.965 220.98 0)
+			(at 101.6 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21458,7 +22734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 100.33 119.38 0)
 			(effects
 				(font
@@ -21484,10 +22760,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "df7cefd0-880d-4bee-91e1-eecaef605843")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "0a849ff0-6e81-40b9-b2a3-928365379c85")
 		)
 		(instances
@@ -21526,7 +22802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal"
+		(property "Footprint" ""
 			(at 92.71 124.46 0)
 			(effects
 				(font
@@ -21544,7 +22820,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 92.71 124.46 0)
 			(effects
 				(font
@@ -21570,7 +22864,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:KEYSW-keyboard_parts")
-		(at 313.69 92.075 0)
+		(at 313.69 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21578,7 +22872,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e1bca3a")
 		(property "Reference" "SW76"
-			(at 313.69 86.1568 0)
+			(at 313.69 86.7918 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21586,7 +22880,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 313.69 94.615 0)
+			(at 313.69 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21594,8 +22888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_ISOEnter_PCB_ReversedStabilizer"
-			(at 313.69 92.075 0)
+		(property "Footprint" ""
+			(at 313.69 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21604,7 +22898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 92.075 0)
+			(at 313.69 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21612,7 +22906,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 92.075 0)
+			(at 313.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21661,7 +22955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN"
+		(property "Footprint" ""
 			(at 313.69 106.68 0)
 			(effects
 				(font
@@ -21687,10 +22981,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "76ae80a6-f248-4a5d-b660-fbc80c30875e")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "89947c2a-f12b-4b37-b0e9-10e0ab063fdf")
 		)
 		(instances
@@ -21704,7 +22998,7 @@
 	)
 	(symbol
 		(lib_id "discipline-pcb-rescue:KEYSW-keyboard_parts")
-		(at 60.325 119.38 0)
+		(at 60.96 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21712,7 +23006,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e225bfb")
 		(property "Reference" "SW78"
-			(at 60.325 113.4618 0)
+			(at 60.96 113.4618 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21720,7 +23014,7 @@
 			)
 		)
 		(property "Value" "KEYSW"
-			(at 60.325 121.92 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21728,8 +23022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN"
-			(at 60.325 119.38 0)
+		(property "Footprint" ""
+			(at 60.96 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21738,7 +23032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.325 119.38 0)
+			(at 60.96 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21746,7 +23040,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.325 119.38 0)
+			(at 60.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21754,10 +23048,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "11d52f79-e1d8-4a37-97c8-da5928095bbc")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "7de56a1b-bd8d-4251-81cc-0c748a30f4fd")
 		)
 		(instances
@@ -21771,7 +23065,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_Small")
-		(at 75.565 185.42 270)
+		(at 76.2 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21779,7 +23073,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0e7676")
 		(property "Reference" "Y1"
-			(at 77.8002 184.2516 90)
+			(at 78.4352 184.2516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21788,7 +23082,7 @@
 			)
 		)
 		(property "Value" "Crystal"
-			(at 77.8002 186.563 90)
+			(at 78.4352 186.563 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21797,7 +23091,7 @@
 			)
 		)
 		(property "Footprint" "cftkb:Crystal_HC49-4H_Vertical"
-			(at 75.565 185.42 0)
+			(at 76.2 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21806,7 +23100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 75.565 185.42 0)
+			(at 76.2 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21815,7 +23109,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.565 185.42 0)
+			(at 76.2 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
