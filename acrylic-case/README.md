@@ -9,20 +9,40 @@ If you have already soldered switches, you will need to desolder them and swap t
 ***Ponoko's automatic size detection when uploading is not flawless, so be sure to manually enter the dimensions below.***
 
 ## Part Dimensions/Thickness (Top to Bottom)
-1. discipline-top-1.dxf - 320.9 x 138.8 mm - ***2mm thickness CLEAR ACRYLIC***
-2. discipline-top-2.dxf ***x2 needed*** - 320.9 x 138.8 mm - ***3mm***
-3. discipline-plate.dxf - 320.9 x 138.8 mm - ***1.5mm thickness DELRIN(POM)*** Can be black or white.
-4. discipline-open-layer.dxf - 320.9 x 138.8 mm - ***4.5mm thickness***
-5. discipline-closed-layer.dxf - 320.9 x 138.8 mm - ***3mm thickness***
-6. discipline-bottom.dxf - 320.9 x 138.8 - ***3mm thickness*** Use matte (frosted) or colored acrylic if you don't want to clean up the flux on the bottom of your PCB.
-7. discipline-foot-1.dxf - 276.5 x 28mm - ***3mm thickness***
-8. discipline-foot-2.dxf - 272.5 x 24mm - ***3mm thickness***
-9. discipline-foot-3.dxf - 268.5 x 20mm - ***3mm thickness***
 
+1. discipline-top-1.dxf - 320.9 x 138.8 mm - ***2mm thickness CLEAR ACRYLIC***
+![keyboard with case](../doc/images/case-discipline-top-1.png)
+
+2. discipline-top-2.dxf ***x2 needed*** - 320.9 x 138.8 mm - ***3mm***
+![keyboard with case](../doc/images/case-discipline-top-2.png)
+
+3. discipline-plate.dxf - 320.9 x 138.8 mm - ***1.5mm thickness DELRIN(POM)*** Can be black or white.
+![keyboard with case](../doc/images/case-discipline-plate.png)
+
+4. discipline-open-layer.dxf - 320.9 x 138.8 mm - ***4.5mm thickness***
+![keyboard with case](../doc/images/case-discipline-open-layer.png)
+
+5. discipline-closed-layer.dxf - 320.9 x 138.8 mm - ***3mm thickness***
+![keyboard with case](../doc/images/case-discipline-closed-layer.png)
+
+6. discipline-bottom.dxf - 320.9 x 138.8 - ***3mm thickness*** Use matte (frosted) or colored acrylic if you don't want to clean up the flux on the bottom of your PCB.
+![keyboard with case](../doc/images/case-discipline-bottom.png)
+
+7. discipline-foot-1.dxf - 276.5 x 28mm - ***3mm thickness***
+![keyboard with case](../doc/images/case-discipline-foot-1.png)
+
+8. discipline-foot-2.dxf - 272.5 x 24mm - ***3mm thickness***
+![keyboard with case](../doc/images/case-discipline-foot-1.png)
+
+9. discipline-foot-3.dxf - 268.5 x 20mm - ***3mm thickness***
+![keyboard with case](../doc/images/case-discipline-foot-1.png)
 
 ## Screws and Standoffs
+
 1. [30x m2x5mm screws](https://www.aliexpress.com/item/32870342767.html?spm=a2g0o.productlist.0.0.27966799mfy194&algo_pvid=98f7a66e-57d9-4ca1-95a8-3b2bc99288b9&algo_expid=98f7a66e-57d9-4ca1-95a8-3b2bc99288b9-13&btsid=da4f7f18-e93d-4ac9-b663-3a1246c85e80&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53)
 2. [12x m2x14mm standoffs](https://www.aliexpress.com/item/32968906213.html?spm=a2g0o.productlist.0.0.265047aaJgjb3X&algo_pvid=cd49ee05-cc1d-4ee2-adb1-eb3f27e62dc2&algo_expid=cd49ee05-cc1d-4ee2-adb1-eb3f27e62dc2-18&btsid=dcb8921a-e3ef-46a9-ae35-4c76361d9e36&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53)
 3. [3x m2x5mm standoffs](https://www.aliexpress.com/item/32968906213.html?spm=a2g0o.productlist.0.0.265047aaJgjb3X&algo_pvid=cd49ee05-cc1d-4ee2-adb1-eb3f27e62dc2&algo_expid=cd49ee05-cc1d-4ee2-adb1-eb3f27e62dc2-18&btsid=dcb8921a-e3ef-46a9-ae35-4c76361d9e36&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53)
 
-![](../doc/images/discipline-cases.jpg)
+## Final
+
+![keyboard with case](../doc/images/discipline-cases.jpg)
